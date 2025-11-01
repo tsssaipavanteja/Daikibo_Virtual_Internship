@@ -1,32 +1,94 @@
-📊 Tata Data Visualization Virtual Internship — Forage
+📊 Virtual Internship Projects — Data Analytics & Visualization
 
-This repository contains my work from the Tata Data Visualization Virtual Internship Program offered on Forage.
-The project simulates the role of a Business Data Analyst working with retail sales data to support business decisions through dashboards and communication insights.
+This repository contains my completed virtual internship tasks across Daikibo and Deloitte programs, focused on real-world business analytics, data processing, and visualization using Tableau and Excel.
 
-✅ Tasks Completed
-Task	Description
-Data understanding & business questions	Identified key business questions for CEO & CMO
-Tableau dashboard development	Built interactive dashboard using sales & marketing metrics
-Insight generation	Analyzed patterns, trends & business KPIs
-Presentation & communication	Summarized insights with retail business focus
-💡 Key Learnings
+🏭Deloitte Virtual Internship — Data Analytics
+✅ Task 1 — Telemetry Data Analysis (Tableau)
 
-Framing business problems into analytical questions
+Objective:
+Analyze machine telemetry data to calculate factory downtime and identify operational inefficiencies.
 
-Cleaning & preparing data for dashboarding
+Approach:
 
-Building a retail performance dashboard
+Imported daikibo-telemetry-data.json into Tableau
 
-Using data to tell a clear business story
+Created calculated field: Unhealthy = 10 (minutes of downtime per unhealthy status)
 
-Improving corporate communication & presentation skills
+Built linked visualizations:
 
-🛠️ Tools Used
+Downtime per Factory
 
-Tableau
+Downtime per Device Type
 
-Excel
+Designed interactive dashboard with filters for dynamic analysis
 
-PowerPoint
+Outcome:
 
-Forage Learning Platform
+Identified the factory with highest downtime
+
+Highlighted device-level performance risks
+
+Enabled data-driven decision making for operational improvements
+
+✅ Task 2 — Equality Score Classification (Excel)
+
+Objective:
+Classify factories and job roles based on equality & fairness scores.
+
+Approach:
+
+Created new column: Equality Class
+
+Applied classification formula:
+
+=IF(ABS(C2)<=10,"Fair",IF(ABS(C2)<=20,"Unfair","Highly Discriminative"))
+
+
+Verified logic and consistency across records
+
+Outcome:
+
+Automated fairness classification for 37 records
+
+Enabled HR teams to assess workplace equality distribution
+
+Reduced manual evaluation effort with smart Excel logic
+
+🧠 Deloitte Virtual Internship — Data Analytics
+✅ Business Problem Understanding & KPI Identification
+
+Understood client scenario and operational challenges
+
+Identified relevant business KPIs for decision-making
+
+✅ Data Cleaning & Preparation
+
+Cleaned and structured HR workforce data
+
+Derived new variables for analysis
+
+✅ Analytical Insights
+
+Explored workforce diversity, attrition & hiring trends
+
+Identified workforce inequality patterns across departments
+
+✅ Reporting
+
+Created insights summary & business-oriented recommendations
+
+Delivered executive-style presentation
+
+🎯 Key Skills & Tools
+Skills	Tools
+Data Cleaning & Interpretation	Excel
+Dashboard Building	Tableau
+Business KPI Analysis	Excel Functions
+Insight Storytelling	Excel & Visual Analytics
+🚀 Key Takeaways
+
+Real-world analytics experience across HR & manufacturing domains
+
+Hands-on interactive visualization & data logic building
+
+Improved problem-solving, presentation & storytelling skills
